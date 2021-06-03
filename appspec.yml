@@ -5,6 +5,6 @@ files:
     destination: /var/www/html
 hooks:
   BeforeInstall:
-    - location: pre.sh
+    - location: /scripts/pre.sh
       timeout: 300
       runas: root
